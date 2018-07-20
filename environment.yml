@@ -1,0 +1,6 @@
+name: build_test
+dependencies:
+    - pip:
+        - tox
+    - python=3.6
+    - pytest
