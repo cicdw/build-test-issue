@@ -29,3 +29,5 @@ rm tests/__init__.py
 pytest # tests pass
 tox # tests fail!
 ```
+
+Clearly, including a `MANIFEST.in` file (with the one line `include config.txt`) will prevent this; however, that is precisely the thing I want `tox` to detect and raise to me.
