@@ -25,6 +25,7 @@ cd build_test-0.0.0
 pytest # tests fail!
 
 ## remove tests/__init__.py
+cd ../../../ # return to git repo
 rm tests/__init__.py
 pytest # tests pass
 tox # tests fail!
