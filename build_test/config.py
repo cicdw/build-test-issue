@@ -3,7 +3,8 @@ from os.path import join, dirname
 import sys
 
 
-print(sys.path)
+print('=' * 30)
+print(f'sys.path = {sys.path}')
 GLOBAL_CONFIG = join(dirname(build_test.__file__), '../config.txt')
 
 
